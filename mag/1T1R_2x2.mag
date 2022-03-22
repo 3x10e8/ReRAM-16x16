@@ -1,0 +1,38 @@
+magic
+tech sky130B
+timestamp 1647888104
+<< metal1 >>
+rect 5 -195 25 -165
+rect 205 -195 225 -165
+<< metal2 >>
+rect 0 130 40 150
+rect 0 -70 40 -50
+rect 0 -195 30 -180
+<< metal3 >>
+rect 0 35 30 65
+rect 0 -165 40 -135
+use 1T1R  1T1R_0
+timestamp 1647833819
+transform 1 0 40 0 1 90
+box -40 -125 160 115
+use 1T1R  1T1R_1
+timestamp 1647833819
+transform 1 0 240 0 1 90
+box -40 -125 160 115
+use 1T1R  1T1R_2
+timestamp 1647833819
+transform 1 0 40 0 1 -110
+box -40 -125 160 115
+use 1T1R  1T1R_3
+timestamp 1647833819
+transform 1 0 240 0 1 -110
+box -40 -125 160 115
+<< labels >>
+rlabel metal2 0 -60 0 -60 7 row0
+rlabel metal2 0 140 0 140 7 row1
+rlabel metal1 15 -195 15 -195 5 col0
+rlabel metal1 215 -195 215 -195 5 col1
+rlabel metal3 0 -150 0 -150 3 WL0
+rlabel metal2 0 -185 0 -185 7 body
+rlabel metal3 0 50 0 50 3 WL1
+<< end >>

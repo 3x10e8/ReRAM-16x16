@@ -1,0 +1,362 @@
+magic
+tech sky130B
+timestamp 1647888104
+<< metal1 >>
+rect 5 5 25 35
+rect 205 5 225 35
+rect 405 5 425 35
+rect 605 5 625 35
+rect 805 5 825 35
+rect 1005 5 1025 35
+rect 1205 5 1225 35
+rect 1405 5 1425 35
+rect 1605 5 1625 35
+rect 1805 5 1825 35
+rect 2005 5 2025 35
+rect 2205 5 2225 35
+rect 2405 5 2425 35
+rect 2605 5 2625 35
+rect 2805 5 2825 35
+rect 3005 5 3025 35
+<< metal2 >>
+rect 0 3130 35 3150
+rect 0 2930 35 2950
+rect 0 2730 35 2750
+rect 0 2530 35 2550
+rect 0 2330 35 2350
+rect 0 2130 35 2150
+rect 0 1930 35 1950
+rect 0 1730 35 1750
+rect 0 1530 35 1550
+rect 0 1330 35 1350
+rect 0 1130 35 1150
+rect 0 930 35 950
+rect 0 730 35 750
+rect 0 530 35 550
+rect 0 330 35 350
+rect 0 130 30 150
+rect 0 5 30 20
+<< metal3 >>
+rect 0 3035 30 3065
+rect 0 2835 30 2865
+rect 0 2635 30 2665
+rect 0 2435 30 2465
+rect 0 2235 30 2265
+rect 0 2035 30 2065
+rect 0 1835 30 1865
+rect 0 1635 30 1665
+rect 0 1435 30 1465
+rect 0 1235 30 1265
+rect 0 1035 30 1065
+rect 0 835 30 865
+rect 0 635 30 665
+rect 0 435 30 465
+rect 0 235 30 265
+rect 0 35 35 65
+use 1T1R_2x2  1T1R_2x2_0
+timestamp 1647888104
+transform 1 0 0 0 1 200
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_1
+timestamp 1647888104
+transform 1 0 400 0 1 200
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_2
+timestamp 1647888104
+transform 1 0 800 0 1 200
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_3
+timestamp 1647888104
+transform 1 0 1200 0 1 200
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_4
+timestamp 1647888104
+transform 1 0 1600 0 1 200
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_5
+timestamp 1647888104
+transform 1 0 2000 0 1 200
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_6
+timestamp 1647888104
+transform 1 0 2400 0 1 200
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_7
+timestamp 1647888104
+transform 1 0 2800 0 1 200
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_8
+timestamp 1647888104
+transform 1 0 0 0 1 600
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_9
+timestamp 1647888104
+transform 1 0 400 0 1 600
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_10
+timestamp 1647888104
+transform 1 0 800 0 1 600
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_11
+timestamp 1647888104
+transform 1 0 1200 0 1 600
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_12
+timestamp 1647888104
+transform 1 0 1600 0 1 600
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_13
+timestamp 1647888104
+transform 1 0 2000 0 1 600
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_14
+timestamp 1647888104
+transform 1 0 2400 0 1 600
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_15
+timestamp 1647888104
+transform 1 0 2800 0 1 600
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_16
+timestamp 1647888104
+transform 1 0 0 0 1 1000
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_17
+timestamp 1647888104
+transform 1 0 400 0 1 1000
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_18
+timestamp 1647888104
+transform 1 0 800 0 1 1000
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_19
+timestamp 1647888104
+transform 1 0 1200 0 1 1000
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_20
+timestamp 1647888104
+transform 1 0 1600 0 1 1000
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_21
+timestamp 1647888104
+transform 1 0 2000 0 1 1000
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_22
+timestamp 1647888104
+transform 1 0 2400 0 1 1000
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_23
+timestamp 1647888104
+transform 1 0 2800 0 1 1000
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_24
+timestamp 1647888104
+transform 1 0 2800 0 1 1400
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_25
+timestamp 1647888104
+transform 1 0 2400 0 1 1400
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_26
+timestamp 1647888104
+transform 1 0 2000 0 1 1400
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_27
+timestamp 1647888104
+transform 1 0 1600 0 1 1400
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_28
+timestamp 1647888104
+transform 1 0 1200 0 1 1400
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_29
+timestamp 1647888104
+transform 1 0 800 0 1 1400
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_30
+timestamp 1647888104
+transform 1 0 400 0 1 1400
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_31
+timestamp 1647888104
+transform 1 0 0 0 1 1400
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_32
+timestamp 1647888104
+transform 1 0 0 0 1 1800
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_33
+timestamp 1647888104
+transform 1 0 400 0 1 1800
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_34
+timestamp 1647888104
+transform 1 0 800 0 1 1800
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_35
+timestamp 1647888104
+transform 1 0 1200 0 1 1800
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_36
+timestamp 1647888104
+transform 1 0 1600 0 1 1800
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_37
+timestamp 1647888104
+transform 1 0 2000 0 1 1800
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_38
+timestamp 1647888104
+transform 1 0 2400 0 1 1800
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_39
+timestamp 1647888104
+transform 1 0 2800 0 1 1800
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_40
+timestamp 1647888104
+transform 1 0 0 0 1 2200
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_41
+timestamp 1647888104
+transform 1 0 400 0 1 2200
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_42
+timestamp 1647888104
+transform 1 0 800 0 1 2200
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_43
+timestamp 1647888104
+transform 1 0 1200 0 1 2200
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_44
+timestamp 1647888104
+transform 1 0 1600 0 1 2200
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_45
+timestamp 1647888104
+transform 1 0 2000 0 1 2200
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_46
+timestamp 1647888104
+transform 1 0 2400 0 1 2200
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_47
+timestamp 1647888104
+transform 1 0 2800 0 1 2200
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_48
+timestamp 1647888104
+transform 1 0 0 0 1 2600
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_49
+timestamp 1647888104
+transform 1 0 400 0 1 2600
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_50
+timestamp 1647888104
+transform 1 0 800 0 1 2600
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_51
+timestamp 1647888104
+transform 1 0 1200 0 1 2600
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_52
+timestamp 1647888104
+transform 1 0 1600 0 1 2600
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_53
+timestamp 1647888104
+transform 1 0 2000 0 1 2600
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_54
+timestamp 1647888104
+transform 1 0 2400 0 1 2600
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_55
+timestamp 1647888104
+transform 1 0 2800 0 1 2600
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_56
+timestamp 1647888104
+transform 1 0 0 0 1 3000
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_57
+timestamp 1647888104
+transform 1 0 400 0 1 3000
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_58
+timestamp 1647888104
+transform 1 0 800 0 1 3000
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_59
+timestamp 1647888104
+transform 1 0 1200 0 1 3000
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_60
+timestamp 1647888104
+transform 1 0 1600 0 1 3000
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_61
+timestamp 1647888104
+transform 1 0 2000 0 1 3000
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_62
+timestamp 1647888104
+transform 1 0 2400 0 1 3000
+box 0 -235 400 205
+use 1T1R_2x2  1T1R_2x2_63
+timestamp 1647888104
+transform 1 0 2800 0 1 3000
+box 0 -235 400 205
+<< labels >>
+rlabel metal2 0 140 0 140 7 row0
+rlabel metal2 0 340 0 340 7 row1
+rlabel metal2 0 540 0 540 7 row2
+rlabel metal2 0 740 0 740 7 row3
+rlabel metal2 0 940 0 940 7 row4
+rlabel metal2 0 1140 0 1140 7 row5
+rlabel metal2 0 1340 0 1340 7 row6
+rlabel metal2 0 1540 0 1540 7 row7
+rlabel metal2 0 1740 0 1740 7 row8
+rlabel metal2 0 1940 0 1940 7 row9
+rlabel metal2 0 2140 0 2140 7 row10
+rlabel metal2 0 2340 0 2340 7 row11
+rlabel metal2 0 2540 0 2540 7 row12
+rlabel metal2 0 2740 0 2740 7 row13
+rlabel metal2 0 2940 0 2940 7 row14
+rlabel metal2 0 3140 0 3140 7 row15
+rlabel metal1 15 5 15 5 5 col0
+rlabel metal1 215 5 215 5 5 col1
+rlabel metal1 415 5 415 5 5 col2
+rlabel metal1 615 5 615 5 5 col3
+rlabel metal1 815 5 815 5 5 col4
+rlabel metal1 1015 5 1015 5 5 col5
+rlabel metal1 1215 5 1215 5 5 col6
+rlabel metal1 1415 5 1415 5 5 col7
+rlabel metal1 1615 5 1615 5 5 col8
+rlabel metal1 1815 5 1815 5 5 col9
+rlabel metal1 2215 5 2215 5 5 col11
+rlabel metal1 2015 5 2015 5 5 col10
+rlabel metal1 2415 5 2415 5 5 col12
+rlabel metal1 2615 5 2615 5 5 col13
+rlabel metal1 2815 5 2815 5 5 col14
+rlabel metal1 3015 5 3015 5 5 col15
+rlabel metal2 0 15 0 15 7 body
+rlabel metal3 0 50 0 50 5 WL0
+rlabel metal3 0 250 0 250 5 WL1
+rlabel metal3 0 450 0 450 5 WL2
+rlabel metal3 0 650 0 650 5 WL3
+rlabel metal3 0 850 0 850 5 WL4
+rlabel metal3 0 1050 0 1050 5 WL5
+rlabel metal3 0 1250 0 1250 5 WL6
+rlabel metal3 0 1450 0 1450 5 WL7
+rlabel metal3 0 1650 0 1650 5 WL8
+rlabel metal3 0 1850 0 1850 5 WL9
+rlabel metal3 0 2050 0 2050 5 WL10
+rlabel metal3 0 2250 0 2250 5 WL11
+rlabel metal3 0 2450 0 2450 5 WL12
+rlabel metal3 0 2650 0 2650 5 WL13
+rlabel metal3 0 2850 0 2850 5 WL14
+rlabel metal3 0 3050 0 3050 5 WL15
+<< end >>

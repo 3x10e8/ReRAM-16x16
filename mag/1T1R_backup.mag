@@ -1,0 +1,113 @@
+magic
+tech sky130B
+timestamp 1647826061
+<< mvnmos >>
+rect 0 0 50 100
+<< mvndiff >>
+rect -40 85 0 100
+rect -40 15 -30 85
+rect -10 15 0 85
+rect -40 0 0 15
+rect 50 85 90 100
+rect 50 15 60 85
+rect 80 15 90 85
+rect 50 0 90 15
+<< mvndiffc >>
+rect -30 15 -10 85
+rect 60 15 80 85
+<< mvpsubdiff >>
+rect 90 85 160 100
+rect 90 15 115 85
+rect 135 15 160 85
+rect 90 0 160 15
+<< mvpsubdiffcont >>
+rect 115 15 135 85
+<< poly >>
+rect 0 100 50 115
+rect 0 -25 50 0
+rect 0 -45 10 -25
+rect 40 -45 50 -25
+rect 0 -55 50 -45
+<< polycont >>
+rect 10 -45 40 -25
+<< locali >>
+rect -35 85 -5 95
+rect -35 15 -30 85
+rect -10 15 -5 85
+rect -35 5 -5 15
+rect 55 85 85 95
+rect 55 15 60 85
+rect 80 15 85 85
+rect 55 5 85 15
+rect 105 85 145 95
+rect 105 15 115 85
+rect 135 15 145 85
+rect 105 5 145 15
+rect 0 -25 50 -15
+rect 0 -45 10 -25
+rect 40 -45 50 -25
+rect 0 -55 50 -45
+<< viali >>
+rect -30 15 -10 85
+rect 60 15 80 85
+rect 115 15 135 85
+rect 10 -45 40 -25
+<< metal1 >>
+rect -35 95 -15 115
+rect -35 85 -5 95
+rect -35 15 -30 85
+rect -10 15 -5 85
+rect -35 5 -5 15
+rect 10 85 95 95
+rect 10 15 60 85
+rect 80 15 95 85
+rect -35 -85 -15 5
+rect 10 0 95 15
+rect 110 85 140 115
+rect 110 15 115 85
+rect 135 15 140 85
+rect 0 -20 50 -15
+rect 0 -50 10 -20
+rect 40 -50 50 -20
+rect 0 -55 50 -50
+rect 110 -50 140 15
+rect 110 -90 140 -85
+<< via1 >>
+rect 10 -25 40 -20
+rect 10 -45 40 -25
+rect 10 -50 40 -45
+rect 110 -85 140 -50
+<< reram >>
+rect 10 5 95 90
+<< metal2 >>
+rect 10 90 95 95
+rect -40 40 10 60
+rect 95 40 160 60
+rect 10 0 95 5
+rect -40 -20 160 -15
+rect -40 -30 10 -20
+rect 0 -50 10 -30
+rect 40 -30 160 -20
+rect 40 -50 50 -30
+rect 0 -55 50 -50
+rect 105 -85 110 -50
+rect 140 -85 145 -50
+<< via2 >>
+rect 110 -85 140 -50
+<< metal3 >>
+rect 105 -50 145 -45
+rect 105 -55 110 -50
+rect -40 -85 110 -55
+rect 140 -55 145 -50
+rect 140 -85 160 -55
+rect 105 -90 145 -85
+<< labels >>
+rlabel metal2 -40 50 -40 50 7 row
+port 1 w
+rlabel metal1 -25 -85 -25 -85 5 col
+port 2 s
+rlabel metal1 125 -85 125 -85 5 body
+port 4 s
+rlabel metal2 -40 -23 -40 -23 7 WL
+port 3 w
+<< end >>

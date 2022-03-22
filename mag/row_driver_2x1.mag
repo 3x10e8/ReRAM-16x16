@@ -1,0 +1,12 @@
+magic
+tech sky130B
+timestamp 1647923593
+use row_driver  row_driver_0
+timestamp 1647920407
+transform 1 0 0 0 1 2149
+box -66 -2125 2445 -1924
+use row_driver  row_driver_1
+timestamp 1647920407
+transform 1 0 0 0 1 2349
+box -66 -2125 2445 -1924
+<< end >>
