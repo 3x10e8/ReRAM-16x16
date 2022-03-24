@@ -1,6 +1,6 @@
 magic
 tech sky130B
-timestamp 1648072940
+timestamp 1647984233
 << nwell >>
 rect -30 -789 170 351
 << mvnmos >>
@@ -887,25 +887,15 @@ rect 130 -594 160 -539
 rect 120 -634 170 -594
 rect 130 -1934 160 -634
 << labels >>
+rlabel metal1 -30 -724 -30 -724 7 VP
+rlabel metal1 -30 -1379 -30 -1379 7 VN
 rlabel metal1 54 351 54 351 1 col
 rlabel metal1 -30 -234 -30 -234 3 Vgpc
-port 9 e
+rlabel metal1 -30 -664 -30 -664 3 Vc+
+rlabel metal1 -30 -1224 -30 -1224 3 Vc-
 rlabel metal1 -30 -1179 -30 -1179 3 Vgnc
-port 7 e
 rlabel metal1 -30 -1530 -30 -1530 3 Vref
-port 8 e
 rlabel metal3 145 -1930 145 -1930 1 SWref
-port 11 n
-rlabel metal2 151 -1934 151 -1934 5 SWc_minus
-port 10 s
-rlabel metal4 140 -1934 140 -1934 5 SWc_plus
-port 12 s
-rlabel metal1 -30 -1224 -30 -1224 7 Vc_minus
-port 13 w
-rlabel metal1 -30 -664 -30 -664 7 Vc_plus
-port 14 w
-rlabel metal1 -30 -1379 -30 -1379 7 vssd1
-port 17 w
-rlabel metal1 -30 -724 -30 -724 7 vccd1
-port 18 w
+rlabel metal2 150 -1930 150 -1930 1 SWc-
+rlabel metal4 138 -1930 138 -1930 1 SWc+
 << end >>

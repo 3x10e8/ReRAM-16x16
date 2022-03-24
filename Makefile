@@ -15,6 +15,7 @@
 # SPDX-License-Identifier: Apache-2.0
 MAKEFLAGS+=--warn-undefined-variables
 
+PWD?=/home/sky/proj/ReRAM-16x16
 CARAVEL_ROOT?=$(PWD)/caravel
 PRECHECK_ROOT?=${HOME}/mpw_precheck
 MCW_ROOT?=$(PWD)/mgmt_core_wrapper
@@ -60,7 +61,7 @@ simenv:
 	docker pull efabless/dv_setup:latest
 
 .PHONY: setup
-setup: install check-env install_mcw pdk openlane
+setup: install check-env install_mcw openlane
 
 # Openlane
 blocks=$(shell cd openlane && find * -maxdepth 0 -type d)
