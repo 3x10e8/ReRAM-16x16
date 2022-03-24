@@ -341,6 +341,6 @@ Found and reported 240 problems.
 Dumping module `\user_project_wrapper'.
 
 Warnings: 240 unique messages, 240 total
-End of script. Logfile hash: 36eedf393c, CPU: user 0.11s system 0.01s, MEM: 25.99 MB peak
+End of script. Logfile hash: 36eedf393c, CPU: user 0.12s system 0.01s, MEM: 25.70 MB peak
 Yosys 0.12+45 (git sha1 UNKNOWN, gcc 8.3.1 -fPIC -Os)
 Time spent: 91% 2x stat (0 sec), 2% 2x write_verilog (0 sec), ...

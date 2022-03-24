@@ -1,91 +1,91 @@
 - status: 0 - openlane design prep
-  runtime_s: 1.376
-  runtime_ts: 0h0m1s375ms
+  runtime_s: 2.445
+  runtime_ts: 0h0m2s444ms
 - status: 1 - synthesis - yosys
-  runtime_s: 0.388
-  runtime_ts: 0h0m0s388ms
+  runtime_s: 0.417
+  runtime_ts: 0h0m0s417ms
 - status: 2 - sta - openroad
-  runtime_s: 0.574
-  runtime_ts: 0h0m0s574ms
+  runtime_s: 0.606
+  runtime_ts: 0h0m0s606ms
 - status: 3 - floorplan initialization - openroad
-  runtime_s: 0.611
-  runtime_ts: 0h0m0s611ms
+  runtime_s: 0.608
+  runtime_ts: 0h0m0s608ms
 - status: 4 - ioplace - io_place.py
-  runtime_s: 0.441
-  runtime_ts: 0h0m0s441ms
+  runtime_s: 0.452
+  runtime_ts: 0h0m0s452ms
 - status: 6 - pdn generation - openroad
-  runtime_s: 0.803
-  runtime_ts: 0h0m0s803ms
+  runtime_s: 0.797
+  runtime_ts: 0h0m0s797ms
 - status: 7 - pdn generation - openroad
-  runtime_s: 0.749
-  runtime_ts: 0h0m0s749ms
+  runtime_s: 0.843
+  runtime_ts: 0h0m0s843ms
 - status: 8 - pdn generation - openroad
-  runtime_s: 0.76
-  runtime_ts: 0h0m0s760ms
+  runtime_s: 0.884
+  runtime_ts: 0h0m0s884ms
 - status: 9 - pdn generation - openroad
-  runtime_s: 0.784
-  runtime_ts: 0h0m0s784ms
+  runtime_s: 1.013
+  runtime_ts: 0h0m1s12ms
 - status: 10 - global placement - random_place.py
-  runtime_s: 0.278
-  runtime_ts: 0h0m0s278ms
+  runtime_s: 0.299
+  runtime_ts: 0h0m0s299ms
 - status: 11 - detailed placement - openroad
-  runtime_s: 1.335
-  runtime_ts: 0h0m1s334ms
+  runtime_s: 1.509
+  runtime_ts: 0h0m1s508ms
 - status: 13 - detailed placement - openroad
-  runtime_s: 1.141
-  runtime_ts: 0h0m1s141ms
+  runtime_s: 1.48
+  runtime_ts: 0h0m1s480ms
 - status: 15 - global routing - openroad
-  runtime_s: 1.486
-  runtime_ts: 0h0m1s486ms
+  runtime_s: 1.763
+  runtime_ts: 0h0m1s762ms
 - status: 16 - write verilog - openroad
-  runtime_s: 0.243
-  runtime_ts: 0h0m0s243ms
+  runtime_s: 0.3
+  runtime_ts: 0h0m0s300ms
 - status: 17 - detailed_routing - openroad
-  runtime_s: 80.674
-  runtime_ts: 0h1m20s674ms
+  runtime_s: 441.461
+  runtime_ts: 0h7m21s461ms
 - status: 18 - write verilog - openroad
-  runtime_s: 0.237
-  runtime_ts: 0h0m0s237ms
-- status: 19 - parasitics extraction - openroad
-  runtime_s: 0.692
-  runtime_ts: 0h0m0s692ms
-- status: 20 - parasitics extraction - openroad
-  runtime_s: 0.691
-  runtime_ts: 0h0m0s691ms
-- status: 21 - parasitics extraction - openroad
-  runtime_s: 1.215
-  runtime_ts: 0h0m1s215ms
-- status: 22 - sta - openroad
-  runtime_s: 0.86
-  runtime_ts: 0h0m0s860ms
-- status: 23 - sta - openroad
-  runtime_s: 2.044
-  runtime_ts: 0h0m2s44ms
-- status: 24 - gdsii - magic
-  runtime_s: 2.287
-  runtime_ts: 0h0m2s286ms
-- status: 25 - gdsii - klayout
-  runtime_s: 0.401
-  runtime_ts: 0h0m0s401ms
-- status: 26 - xor - klayout
-  runtime_s: 2.316
-  runtime_ts: 0h0m2s315ms
-- status: 27 - spice extraction - magic
-  runtime_s: 7.723
-  runtime_ts: 0h0m7s722ms
-- status: 29 - write verilog - openroad
   runtime_s: 0.25
   runtime_ts: 0h0m0s250ms
+- status: 19 - parasitics extraction - openroad
+  runtime_s: 0.716
+  runtime_ts: 0h0m0s716ms
+- status: 20 - parasitics extraction - openroad
+  runtime_s: 0.768
+  runtime_ts: 0h0m0s768ms
+- status: 21 - parasitics extraction - openroad
+  runtime_s: 1.2650000000000001
+  runtime_ts: 0h0m1s265ms
+- status: 22 - sta - openroad
+  runtime_s: 0.885
+  runtime_ts: 0h0m0s885ms
+- status: 23 - sta - openroad
+  runtime_s: 2.117
+  runtime_ts: 0h0m2s117ms
+- status: 24 - gdsii - magic
+  runtime_s: 2.448
+  runtime_ts: 0h0m2s447ms
+- status: 25 - gdsii - klayout
+  runtime_s: 0.458
+  runtime_ts: 0h0m0s458ms
+- status: 26 - xor - klayout
+  runtime_s: 2.733
+  runtime_ts: 0h0m2s733ms
+- status: 27 - spice extraction - magic
+  runtime_s: 7.868
+  runtime_ts: 0h0m7s868ms
+- status: 29 - write verilog - openroad
+  runtime_s: 0.262
+  runtime_ts: 0h0m0s262ms
 - status: 29 - write powered verilog - openlane
-  runtime_s: 0.358
-  runtime_ts: 0h0m0s358ms
+  runtime_s: 0.377
+  runtime_ts: 0h0m0s377ms
 - status: 30 - lvs - netgen
-  runtime_s: 0.143
-  runtime_ts: 0h0m0s143ms
+  runtime_s: 0.149
+  runtime_ts: 0h0m0s149ms
 ---
 - status: routed
-  runtime_s: 101.0
-  runtime_ts: 0h1m41s0ms
+  runtime_s: 465.0
+  runtime_ts: 0h7m45s0ms
 - status: flow failed
-  runtime_s: 117.0
-  runtime_ts: 0h1m57s0ms
+  runtime_s: 481.0
+  runtime_ts: 0h8m1s0ms
