@@ -1,0 +1,72 @@
+OpenROAD 8d53e9b018dec98fa63e907ddeb6c5406f035361 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/merged.lef
+[INFO ODB-0223]     Created 13 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0225]     Created 442 library cells
+[INFO ODB-0226] Finished LEF file:  /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/merged.lef
+[INFO ODB-0127] Reading DEF file: /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/results/routing/user_project_wrapper.def
+[INFO ODB-0128] Design: user_project_wrapper
+[INFO ODB-0130]     Created 645 pins.
+[INFO ODB-0131]     Created 1 components and 10 component-terminals.
+[INFO ODB-0132]     Created 8 special nets and 0 connections.
+[INFO ODB-0133]     Created 637 nets and 8 connections.
+[INFO ODB-0134] Finished DEF file: /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/results/routing/user_project_wrapper.def
+[INFO ODB-0222] Reading LEF file: /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/merged.lef
+[INFO ODB-0223]     Created 13 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0225]     Created 442 library cells
+[INFO ODB-0226] Finished LEF file:  /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/merged.lef
+[INFO ODB-0127] Reading DEF file: /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/synthesis/pg_define.def
+[INFO ODB-0128] Design: user_project_wrapper
+[INFO ODB-0130]     Created 645 pins.
+[INFO ODB-0131]     Created 1 components and 10 component-terminals.
+[INFO ODB-0133]     Created 645 nets and 10 connections.
+[INFO ODB-0134] Finished DEF file: /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/synthesis/pg_define.def
+Top-level design name: user_project_wrapper
+Default power net:  vccd1
+Default ground net: vssd1
+Found a total of 4 power ports.
+Found a total of 4 ground ports.
+Warning: No pins in the LEF view of col_driver_west  marked for use as power
+Warning: Attempting to match power pin by name (using top-level port name) for cell: col_driver_west
+Found vccd1 using that as a power pin
+Warning: No pins in the LEF view of col_driver_west  marked for use as ground
+Warning: Attempting to match ground pin by name (using top-level port name) for cell: col_driver_west
+Found vssd1 using that as a ground pin
+Modified power connections of 1 cells (Remaining: 0 ).
+STDOUT:
+OpenROAD 8d53e9b018dec98fa63e907ddeb6c5406f035361 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+openroad> read_lef /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/r
+<y/proj/ReRAM-16x16/openlane/user_project_wrapper/ru                         ns/user_project_wrapper/t
+
+<e/user_project_wrapper/runs/user_project_wrapper/tm                         p/merged.lef
+[INFO ODB-0222] Reading LEF file: /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/merged.lef
+[INFO ODB-0223]     Created 13 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0225]     Created 442 library cells
+[INFO ODB-0226] Finished LEF file:  /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/merged.lef
+openroad> read_verilog /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapp
+<e/sky/proj/ReRAM-16x16/openlane/user_project_wrappe                         r/runs/user_project_wrapp
+
+<nlane/user_project_wrapper/runs/user_project_wrappe                         r/tmp/synthesis/pg_define
+
+</runs/user_project_wrapper/tmp/synthesis/pg_define.                         v
+openroad> link_design user_project_wrapper
+[WARNING ORD-1011] LEF master col_driver has no liberty cell.
+openroad> write_def /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/
+<ky/proj/ReRAM-16x16/openlane/user_project_wrapper/r                         uns/user_project_wrapper/
+
+<ne/user_project_wrapper/runs/user_project_wrapper/t                         mp/synthesis/pg_define.de
+
+<ns/user_project_wrapper/tmp/synthesis/pg_define.def                         
+openroad> exit
+STDERR:
+
+openroad exit code: 0
+Successfully created a new database
+Modified connections between vccd1 and col_driver_west
+Modified connections between vssd1 and col_driver_west

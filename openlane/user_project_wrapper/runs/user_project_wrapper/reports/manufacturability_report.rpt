@@ -1,0 +1,14 @@
+Design Name: user_project_wrapper
+Run Directory: /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper
+Source not found.
+----------------------------------------
+
+LVS Summary:
+Source: /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/logs/finishing/30-user_project_wrapper.lvs.lef.log
+    net count difference = 0
+    unmatched nets = 0
+Total errors = 2
+----------------------------------------
+
+Antenna Summary:
+No antenna report found.

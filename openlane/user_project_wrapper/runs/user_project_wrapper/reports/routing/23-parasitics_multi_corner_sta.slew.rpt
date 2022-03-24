@@ -1,0 +1,56 @@
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+
+======================= Slowest Corner ===================================
+
+max slew
+
+Pin                                    Limit    Slew   Slack
+------------------------------------------------------------
+analog_io[4]                            1.50    3.78   -2.28 (VIOLATED)
+analog_io[1]                            1.50    3.26   -1.77 (VIOLATED)
+analog_io[5]                            1.50    3.20   -1.70 (VIOLATED)
+analog_io[3]                            1.50    3.12   -1.62 (VIOLATED)
+analog_io[0]                            1.50    2.72   -1.23 (VIOLATED)
+io_in[0]                                1.50    1.81   -0.31 (VIOLATED)
+io_in[1]                                1.50    1.70   -0.20 (VIOLATED)
+io_in[2]                                1.50    1.63   -0.13 (VIOLATED)
+
+max capacitance
+
+Pin                                    Limit     Cap   Slack
+------------------------------------------------------------
+io_in[0]                                0.21    0.26   -0.05 (VIOLATED)
+io_in[1]                                0.21    0.24   -0.03 (VIOLATED)
+io_in[2]                                0.21    0.23   -0.02 (VIOLATED)
+
+
+======================= Typical Corner ===================================
+
+max slew
+
+Pin                                    Limit    Slew   Slack
+------------------------------------------------------------
+analog_io[4]                            1.50    2.24   -0.74 (VIOLATED)
+analog_io[1]                            1.50    2.01   -0.51 (VIOLATED)
+analog_io[5]                            1.50    1.85   -0.35 (VIOLATED)
+analog_io[3]                            1.50    1.79   -0.29 (VIOLATED)
+analog_io[0]                            1.50    1.59   -0.09 (VIOLATED)
+
+
+======================= Fastest Corner ===================================
+
+max slew
+
+Pin                                    Limit    Slew   Slack
+------------------------------------------------------------
+analog_io[4]                            1.50    1.59   -0.09 (VIOLATED)
+
+
+===========================================================================
+max slew violation count 8
+max fanout violation count 0
+max cap violation count 3
+============================================================================

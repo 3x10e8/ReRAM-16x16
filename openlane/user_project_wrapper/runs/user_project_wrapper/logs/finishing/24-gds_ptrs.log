@@ -1,0 +1,20 @@
+
+Magic 8.3 revision 269 - Compiled on Fri Feb 18 11:40:47 UTC 2022.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(vendor): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    mvobsactive ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/openlane/scripts/magic/gds_pointers.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 3.0
+Library name: user_project_wrapper
+Reading "col_driver".
+Reading "user_project_wrapper".
+[INFO]: Wrote /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/finishing/gds_ptrs.mag including GDS pointers.

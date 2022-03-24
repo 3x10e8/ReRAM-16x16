@@ -1,0 +1,149 @@
+[INFO]: Current run directory is /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper
+[INFO]: Storing configs into config.tcl ...
+[INFO]: Preparing LEF Files
+[INFO]: Extracting the number of available metal layers from /home/sky/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd.tlef
+[INFO]: The available metal layers (6) are li1  met1  met2  met3  met4  met5
+[INFO]: Merging LEF Files...
+[INFO]: Merging the following extra LEFs:  /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/../../lef/col_driver.lef
+[INFO]: Trimming Liberty...
+[INFO]: Generating Exclude List...
+[INFO]: Generating Exclude List...
+[INFO]: Creating ::env(DONT_USE_CELLS)...
+[INFO]: Looking for files defined in ::env(EXTRA_GDS_FILES)  /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/../../gds/col_driver.gds ...
+[INFO]: /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/../../gds/col_driver.gds exists.
+[INFO]: Preparation complete
+[INFO]: Incremented step index to 0.
+[INFO]: Running Synthesis...
+[INFO]: Changing netlist from 0 to /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/results/synthesis/user_project_wrapper.v
+[INFO]: Incremented step index to 1.
+[INFO]: Running Static Timing Analysis...
+[INFO]: Synthesis was successful
+[INFO]: Creating a netlist with power/ground pins.
+[INFO]: Running Floorplanning...
+[INFO]: Running Initial Floorplanning...
+[INFO]: Incremented step index to 2.
+[INFO]: Core area width: 2908.96
+[INFO]: Core area height: 3498.24
+[INFO]: Final Vertical PDN Offset: 5
+[INFO]: Final Horizontal PDN Offset: 5
+[INFO]: Final Vertical PDN Pitch: 180
+[INFO]: Final Horizontal PDN Pitch: 180
+[INFO]: Changing layout from 0 to /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/floorplan/3-initial_fp.def
+[INFO]: Setting Core Dimensions...
+[INFO]: Incremented step index to 3.
+[INFO]: Running IO Placement...
+[INFO]: Changing layout from /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/floorplan/3-initial_fp.def to /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/floorplan/4-io.def
+[INFO]: Incremented step index to 4.
+[INFO]: Performing Manual Macro Placement...
+[INFO]: Changing layout from /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/floorplan/4-io.def to /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/floorplan/4-io.macro_placement.def
+[WARNING]: Skipping Tap/Decap Insertion.
+[INFO]: Power planning the following nets
+[INFO]: Power: vccd1 vccd2 vdda1 vdda2
+[INFO]: Ground: vssd1 vssd2 vssa1 vssa2
+[INFO]: Incremented step index to 5.
+[INFO]: Generating PDN...
+[INFO]: PDN generation was successful.
+[INFO]: Changing layout from /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/floorplan/4-io.macro_placement.def to /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/floorplan/6-pdn.def
+[WARNING]: All internal macros will not be connected to power.
+[INFO]: Incremented step index to 6.
+[INFO]: Generating PDN...
+[INFO]: PDN generation was successful.
+[INFO]: Changing layout from /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/floorplan/6-pdn.def to /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/floorplan/7-pdn.def
+[WARNING]: All internal macros will not be connected to power.
+[INFO]: Incremented step index to 7.
+[INFO]: Generating PDN...
+[INFO]: PDN generation was successful.
+[INFO]: Changing layout from /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/floorplan/7-pdn.def to /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/floorplan/8-pdn.def
+[WARNING]: All internal macros will not be connected to power.
+[INFO]: Incremented step index to 8.
+[INFO]: Generating PDN...
+[INFO]: PDN generation was successful.
+[INFO]: Changing layout from /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/floorplan/8-pdn.def to /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/floorplan/9-pdn.def
+[INFO]: Running Placement...
+[INFO]: Incremented step index to 9.
+[INFO]: Performing Random Global Placement...
+[INFO]: Changing layout from /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/floorplan/9-pdn.def to /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/placement/10-global.def
+[INFO]: Skipping Resizer Design Optimizations.
+[INFO]: Incremented step index to 10.
+[INFO]: Running Detailed Placement...
+[INFO]: Changing layout from /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/placement/10-global.def to /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/results/placement/user_project_wrapper.def
+[INFO]: Changing layout from /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/results/placement/user_project_wrapper.def to /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/results/placement/user_project_wrapper.def
+[INFO]: Incremented step index to 11.
+[INFO]: Skipping Resizer Timing Optimizations.
+[INFO]: Routing...
+[INFO]: Skipping Resizer Timing Optimizations.
+[INFO]: Incremented step index to 12.
+[INFO]: Running Detailed Placement...
+[INFO]: Changing layout from /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/results/placement/user_project_wrapper.def to /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/results/placement/user_project_wrapper.def
+[INFO]: Changing layout from /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/results/placement/user_project_wrapper.def to /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/results/placement/user_project_wrapper.def
+[INFO]: Incremented step index to 13.
+[INFO]: Incremented step index to 14.
+[INFO]: Running Global Routing...
+[INFO]: Changing layout from /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/results/placement/user_project_wrapper.def to /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/routing/15-global.def
+[INFO]: Changing layout from 0 to /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/routing/15-global.guide
+[INFO]: Current Def is /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/routing/15-global.def
+[INFO]: Current Guide is /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/routing/15-global.guide
+[INFO]: Incremented step index to 15.
+[INFO]: Writing Verilog...
+[INFO]: Changing netlist from /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/results/synthesis/user_project_wrapper.v to /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/routing/15-global.v
+[INFO]: Incremented step index to 16.
+[INFO]: Running Detailed Routing...
+[INFO]: No DRC violations after detailed routing.
+[INFO]: Changing layout from /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/routing/15-global.def to /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/results/routing/user_project_wrapper.def
+[INFO]: Incremented step index to 17.
+[INFO]: Writing Verilog...
+[INFO]: Changing netlist from /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/routing/15-global.v to /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/routing/17-detailed.v
+[INFO]: Incremented step index to 18.
+[INFO]: Running SPEF Extraction...
+[INFO]: Incremented step index to 19.
+[INFO]: Running SPEF Extraction...
+[INFO]: Incremented step index to 20.
+[INFO]: Running SPEF Extraction...
+[INFO]: Incremented step index to 21.
+[INFO]: Running Static Timing Analysis...
+[INFO]: Incremented step index to 22.
+[INFO]: Running Static Timing Analysis...
+[INFO]: Incremented step index to 23.
+[INFO]: Running Magic to generate various views...
+[INFO]: Streaming out GDS II...
+[INFO]: Generating MAGLEF views...
+[INFO]: Generting GDS II with Klayout...
+[INFO]: Incremented step index to 24.
+[INFO]: Streaming out GDS II...
+[INFO]: Back-up GDS-II streamed out.
+[INFO]: Incremented step index to 25.
+[INFO]: Running XOR on the layouts using Klayout...
+[INFO]: Klayout XOR Complete
+[INFO]: Incremented step index to 26.
+[INFO]: Running Magic Spice Export from LEF...
+[INFO]: No illegal overlaps detected during extraction.
+[INFO]: Incremented step index to 27.
+[INFO]: Writing Powered Verilog...
+[INFO]: Incremented step index to 28.
+[INFO]: Writing Verilog...
+[INFO]: Yosys won't attempt to rewrite verilog, and the OpenROAD output will be used as is.
+[INFO]: Changing netlist from /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/routing/17-detailed.v to /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/finishing/27-powered_netlist.v
+[INFO]: Incremented step index to 29.
+[INFO]: Running LEF LVS...
+[INFO]: /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/results/finishing/user_project_wrapper.spice against /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/finishing/27-powered_netlist.v
+[ERROR]: There are LVS errors in the design according to Netgen LVS.
+[INFO]: Calculating Runtime From the Start...
+[INFO]: Generating Final Summary Report...
+[INFO]: Design Name: user_project_wrapper
+Run Directory: /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper
+Source not found.
+----------------------------------------
+
+LVS Summary:
+Source: /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/logs/finishing/30-user_project_wrapper.lvs.lef.log
+    net count difference = 0
+    unmatched nets = 0
+Total errors = 2
+----------------------------------------
+
+Antenna Summary:
+No antenna report found.
+[INFO]: check full report here: /home/sky/proj/ReRAM-16x16/openlane/user_project_wrapper/runs/user_project_wrapper/reports/final_summary_report.csv
+[INFO]: Saving runtime environment...
+[ERROR]: Flow failed.
+[INFO]: The failure may have been because of the following warnings:
